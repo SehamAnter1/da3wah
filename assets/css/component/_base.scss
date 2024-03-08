@@ -1,0 +1,108 @@
+.text-orange {
+  color: #e65b35;
+}
+.btn-white {
+  color: #ad7c52;
+  background-color: #fff;
+  width: 247px;
+  height: 54px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  &:hover {
+    background-color: $mainColor;
+    color: #fff;
+  }
+}
+.btn-main {
+  color: #fff;
+  background-color: $mainColor;
+  width: 247px;
+  height: 54px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border: 2px solid transparent;
+  &:hover {
+    background-color: transparent;
+    border: 2px solid $mainColor;
+    color: $mainColor;
+  }
+}
+.btn-white-cyan-sm {
+  @extend .btn-white;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px !important;
+  color: $secondColor;
+  &:hover {
+    background-color: $secondColor;
+    color: #fff;
+  }
+}
+.btn-cyan-sm {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px !important;
+  background-color: $secondColor;
+  color: #fff;
+  border: 2px solid transparent;
+  font-size: 13px;
+  &:hover {
+    background-color: transparent;
+    border: 2px solid $secondColor;
+    color: $secondColor;
+  }
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.text-main {
+  color: $mainColor;
+}
+.border-light-main {
+  border: 1px solid RGBA(173, 124, 82, 0.24);
+}
+.border-main {
+  border: 1px solid $mainColor;
+}
+.radius-15 {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.flex-1 {
+  flex: 1;
+}
+.w-fit {
+  width: fit-content !important;
+}
